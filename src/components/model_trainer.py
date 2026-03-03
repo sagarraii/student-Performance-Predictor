@@ -32,8 +32,8 @@ class ModelTrainer:
         try:
             logging.info("Split training and test input data")
             X_train,y_train,X_test,y_test=(
-                train_array[:,:-1],
-                train_array[:,-1],
+                train_array[:,:-1], #take out the last cols and feed remains to X_train
+                train_array[:,-1], # feed the last col to y_train
                 test_array[:,:-1],
                 test_array[:,-1]
             )
@@ -109,11 +109,8 @@ class ModelTrainer:
             predicted=best_model.predict(X_test)
 
             r2_square = r2_score(y_test, predicted)
+
             return r2_square
-            
-
-
-
-            
+        
         except Exception as e:
-            raise CustomException(e,sys)
+            raise CustomException(e, sys)
