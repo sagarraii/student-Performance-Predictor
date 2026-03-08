@@ -80,12 +80,12 @@ Extensive **EDA** was conducted to understand the dataset:
 
 Key insights explored:
 
-• Feature distributions
-• Correlation analysis
-• Outlier detection
-• Impact of demographic variables
-• Feature relationships with student scores
-• Visualization of performance trends
+• Feature distributions<br>
+• Correlation analysis<br>
+• Outlier detection<br>
+• Impact of demographic variables<br>
+• Feature relationships with student scores<br>
+• Visualization of performance trends<br>
 
 Libraries used:
 
@@ -180,9 +180,9 @@ A simple **Flask web interface** allows users to input student information and o
 
 Users can:
 
-• Enter student features
-• Submit the form
-• Receive predicted academic performance
+• Enter student features<br>
+• Submit the form<br>
+• Receive predicted academic performance<br>
 
 ---
 
@@ -370,7 +370,7 @@ Possible enhancements:
 Machine Learning & AI Engineer (Aspiring)  
 Focused on building production-ready ML systems, data-driven applications, and cloud-deployed AI solutions.
 
-🔗 GitHub: https://github.com/sagarraii 
+🔗 GitHub: https://github.com/sagarraii <br>
 🔗 LinkedIn: https://www.linkedin.com/in/mr-raiii/
 ---
 
