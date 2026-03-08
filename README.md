@@ -325,10 +325,10 @@ http://localhost:5000
 
 The `artifacts/` folder contains:
 
-• Trained ML model
-• Preprocessing pipeline
-• Train/Test datasets
-• Serialized objects for inference
+• Trained ML model<br>
+• Preprocessing pipeline<br>
+• Train/Test datasets<br>
+• Serialized objects for inference<br>
 
 This enables **reproducible predictions and production deployment**.
 
@@ -338,9 +338,9 @@ This enables **reproducible predictions and production deployment**.
 
 The system includes structured:
 
-• Logging
-• Custom exception handling
-• Debug-friendly error tracking
+• Logging<br>
+• Custom exception handling<br>
+• Debug-friendly error tracking<br>
 
 Logs are stored inside:
 
